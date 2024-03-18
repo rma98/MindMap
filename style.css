@@ -75,3 +75,14 @@ section .mindmap{
     width: 100%;
     height: 30rem;
 }
+
+footer{
+    text-align: center;
+}
+
+footer p{
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
