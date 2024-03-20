@@ -61,6 +61,83 @@
 
                     <p>Os assinantes podem assistir ao conteúdo ilimitado, sob demanda, em diferentes dispositivos, como smartphones, tablets e smart TVs. A plataforma também oferece recomendações personalizadas com base no histórico de visualização de cada usuário.</p>
                 </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>ADSFlix</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Conteúdo varchar(20)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Assinante</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>contato_fk</span>
+                            <span>Historico de visualização</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Perfil</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome</span>
+                            <span>Configurações personalizadas</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Lista de Reprodução</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(50)</span>
+                            <span>Conteúdo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Título</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Tipo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Recompensa</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Tipo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Recompensa</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Tipo</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Recompensa</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Tipo</span>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="mini-mundo">
                 <div class="mini-mundo-title">
@@ -72,6 +149,58 @@
                     <p>Cada artista cadastrado na plataforma poderá criar diversos projetos. E cada projeto terá um objetivo de arrecadação, bem como o valor e um data limite para se alcançar esse objetivo.</p>
 
                     <p>Ah e cada projeto irá oferecer um tipo de recompensa aos colaboradores, como o envio de uma música digital, CD físico, ingresso para show ou um vídeo com agradecimento especial ao colaborador.</p>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Crowdfunding</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Características varchar(20)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Artista</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Informações</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Projeto Musical</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Titulo</span>
+                            <span>Objetivo</span>
+                            <span>Valor</span>
+                            <span>Tipo</span>
+                            <span>Data</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Colaborador</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(50)</span>
+                            <span>Valor Contribuído</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Recompensa</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Tipo</span>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="mini-mundo">
@@ -87,6 +216,60 @@
 
                     <p>É importante também que nosso e-commerce informe os tipos de serviços prestados nessa locação (pulverização, análise de solo ou monitoramento) e a descrição detalhada e diferenciada dos nossos serviços, destacando os nossos preços que serão cobrados por hora.</p>
                 </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>E-commerce</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Características varchar(20)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Agricultor</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Endereço_fk</span>
+                            <span>Contao_fk</span>
+                            <span>Área Cultivada</span>
+                            <span>Tipo de Cultura</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Drone</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Modelo</span>
+                            <span>Marca</span>
+                            <span>Ano</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Serviço de Locação</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Tipo de serviço</span>
+                            <span>Descrição</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Contato</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Email</span>
+                            <span>Telefone</span>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section class="mini-mundo">
                 <div class="mini-mundo-title">
@@ -98,6 +281,59 @@
                     <p>Eles podem buscar livros de interesse, visualizar perfis de outros usuários e combinar trocas. Além disso, é importante registrar o histórico de trocas realizadas e as avaliações dos usuários sobre as experiências de troca. Os livros são identificados por título, autor, gênero e ano de publicação.</p>
 
                     <p>Os usuários têm um perfil com informações como nome, e-mail, cidade e preferências de gênero literário. Cada troca registrada deve incluir os livros envolvidos, os dados da troca e uma avaliação sobre a experiência.</p>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Rede Social</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Características varchar(20)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Usuário</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Nome varchar(100)</span>
+                            <span>Endereço_fk</span>
+                            <span>Contao_fk</span>
+                            <span>PREFERÊNCIA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Livro</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Título</span>
+                            <span>Gênero</span>
+                            <span>Ano</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Troca</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Data</span>
+                            <span>Local</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="entidade">
+                    <div class="entidade-name">
+                        <h3>Avaliação</h3>
+                        <div class="attributes">
+                            <span>id_pk</span>
+                            <span>Classificação</span>
+                            <span>Comentário</span>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="mini-mundo">
