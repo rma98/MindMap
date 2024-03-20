@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media (max-width:1060px) {
+    .mini-mundo{
+        flex: 32%;
+    }
+}
+
+@media (max-width:900px) {
+    .mini-mundo{
+        flex: 49%;
+    }
+}
+
+@media (max-width:700px) {
+    .mini-mundo{
+        flex: 50%;
+    }
+}
+
+@media (max-width:579px) {
+    img{
+        width: 400px;
+    }
+}
+
+@media (max-width:500px) {
+    #content-1{
+        flex-flow: column wrap;
+    }
+    .iframe-content{
+        width: 100%;
+    }
+}
+
+@media (max-width:385px) {
+    img{
+        width: 300px;
+    }
+}
